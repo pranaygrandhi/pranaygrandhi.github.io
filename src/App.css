@@ -1,9 +1,24 @@
 .portfolio-app {
   min-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
   padding: 32px 0 48px;
+  overflow-x: hidden;
   background: linear-gradient(180deg, #04050a 0%, #090b12 100%);
   color: #e6eaef;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html,
+body,
+#root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .resume-header {
@@ -312,70 +327,3 @@
   color: #d2dae5;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  padding: 14px 24px;
-  font-weight: 700;
-  text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
-}
-
-.btn:hover,
-.btn:focus-visible {
-  transform: translateY(-1px);
-}
-
-.btn-primary {
-  background: #62e8f7;
-  color: #020617;
-}
-
-.btn-secondary {
-  background: rgba(255, 255, 255, 0.08);
-  color: #f8fbff;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-@media (max-width: 1024px) {
-  .resume-header,
-  .text-grid,
-  .detail-cards,
-  .contact-card-large {
-    grid-template-columns: 1fr;
-  }
-
-  .header-actions {
-    justify-content: start;
-  }
-}
-
-@media (max-width: 720px) {
-  .resume-header {
-    padding: 0 20px;
-  }
-
-  .resume-main {
-    padding: 0 20px;
-  }
-
-  .skills-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 520px) {
-  .resume-header h1 {
-    font-size: 2.4rem;
-  }
-
-  .headline {
-    font-size: 1rem;
-  }
-
-  .btn {
-    width: 100%;
-  }
-}
