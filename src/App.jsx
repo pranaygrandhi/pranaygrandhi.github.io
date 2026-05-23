@@ -19,25 +19,25 @@ function App() {
           </a>
           <a
             className="btn btn-primary btn-download"
-            href="/Pranay_Grandhi_Resume.pdf"
+            href="/pranay resume core (1).pdf "
             onClick={async (e) => {
               e.preventDefault();
               try {
-                const res = await fetch('/Pranay_Grandhi_Resume.pdf');
+                const res = await fetch('/pranay resume core (1).pdf ');
                 if (!res.ok) throw new Error('Network response not ok');
                 const blob = await res.blob();
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.style.display = 'none';
                 a.href = url;
-                a.download = 'Pranay_Grandhi_Resume.pdf';
+                a.download = 'pranay resume core (1).pdf ';
                 document.body.appendChild(a);
                 a.click();
                 a.remove();
                 window.URL.revokeObjectURL(url);
               } catch (err) {
                 console.error('Download failed, falling back to direct link', err);
-                window.location.href = '/Pranay_Grandhi_Resume.pdf';
+                window.location.href = '/pranay resume core (1).pdf ';
               }
             }}
           >
@@ -185,7 +185,7 @@ function App() {
               </p>
               <p>Phone: +91 82973 80938</p>
               <div className="contact-footer">
-                <a href="https://www.linkedin.com/in/pranay-grandhi/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/pranay-grandhi-88b431329/" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
                 <a href="https://github.com/pranaygrandhi" target="_blank" rel="noreferrer">
