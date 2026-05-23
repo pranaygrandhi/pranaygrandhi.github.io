@@ -17,7 +17,30 @@ function App() {
           <a className="btn btn-primary" href="mailto:pranaygrandhi9@gmail.com">
             Email Me
           </a>
-          <a className="btn btn-primary btn-download" href="/Pranay_Grandhi_Resume.pdf" download>
+          <a
+            className="btn btn-primary btn-download"
+            href="/Pranay_Grandhi_Resume.pdf"
+            onClick={async (e) => {
+              e.preventDefault();
+              try {
+                const res = await fetch('/Pranay_Grandhi_Resume.pdf');
+                if (!res.ok) throw new Error('Network response not ok');
+                const blob = await res.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = 'Pranay_Grandhi_Resume.pdf';
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                window.URL.revokeObjectURL(url);
+              } catch (err) {
+                console.error('Download failed, falling back to direct link', err);
+                window.location.href = '/Pranay_Grandhi_Resume.pdf';
+              }
+            }}
+          >
             Download Resume
           </a>
         </div>
