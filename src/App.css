@@ -226,6 +226,79 @@
   padding: 32px;
 }
 
+@media (max-width: 980px) {
+  .portfolio-app {
+    padding: 24px 16px 36px;
+  }
+
+  .resume-header {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .header-actions {
+    justify-content: flex-start;
+  }
+
+  .resume-main {
+    padding: 0 16px;
+    gap: 32px;
+  }
+
+  .detail-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .text-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-section .contact-card-large {
+    grid-template-columns: 1fr;
+    padding: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .resume-header h1 {
+    font-size: clamp(2.4rem, 8vw, 3rem);
+  }
+
+  .headline {
+    font-size: 1rem;
+  }
+
+  .resume-header,
+  .resume-main {
+    padding: 0;
+  }
+
+  .resume-section,
+  .resume-overview,
+  .detail-cards article,
+  .timeline-item,
+  .education-card,
+  .contact-section .contact-card-large {
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
 .contact-card-large h3 {
   margin-top: 0;
 }
