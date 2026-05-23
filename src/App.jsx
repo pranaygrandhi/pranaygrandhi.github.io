@@ -17,8 +17,9 @@ function App() {
           <a className="btn btn-primary" href="mailto:pranaygrandhi9@gmail.com">
             Email Me
           </a>
-          <a className="btn btn-secondary" href="#contact">
-            Contact</a>
+          <a className="btn btn-primary btn-download" href="/Pranay_Grandhi_Resume.pdf" download>
+            Download Resume
+          </a>
         </div>
       </header>
 
@@ -154,19 +155,25 @@ function App() {
           </div>
 
           <div className="contact-card-large">
-            <div>
+            <div className="contact-info">
               <h3>Reach out</h3>
               <p>
                 Email: <a href="mailto:pranaygrandhi9@gmail.com">pranaygrandhi9@gmail.com</a>
               </p>
               <p>Phone: +91 82973 80938</p>
-            </div>
-            <div>
-              <p>
-                <a className="btn btn-primary" href="mailto:pranaygrandhi9@gmail.com">
-                  Send a message
+              <div className="contact-footer">
+                <a href="https://www.linkedin.com/in/pranay-grandhi/" target="_blank" rel="noreferrer">
+                  LinkedIn
                 </a>
-              </p>
+                <a href="https://github.com/pranaygrandhi" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <div className="contact-action">
+              <a className="btn btn-primary btn-message" href="mailto:pranaygrandhi9@gmail.com">
+                Send a message
+              </a>
             </div>
           </div>
         </section>
