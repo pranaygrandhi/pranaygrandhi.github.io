@@ -5,7 +5,7 @@ function App() {
     <div className="portfolio-app">
       <header className="resume-header">
         <div>
-          <p className="eyebrow">Cybersecurity Engineer</p>
+          <p className="eyebrow">EV Cybersecurity Engineer</p>
           <h1>Pranay Grandhi</h1>
           <p className="headline">
             Undergraduate security engineer specializing in network security,
