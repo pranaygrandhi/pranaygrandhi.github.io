@@ -380,3 +380,84 @@ body,
   color: #d2dae5;
 }
 
+/* Custom Skills and Certifications styles */
+.skills-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skills-category-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.skills-category-card h3 {
+  margin: 0 0 14px;
+  color: #62e8f7;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills-tags span {
+  display: inline-flex;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #eaf1f8;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.skills-tags span:hover {
+  background: rgba(98, 232, 247, 0.12);
+  border-color: rgba(98, 232, 247, 0.3);
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.certification-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 16px 20px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.certification-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(98, 232, 247, 0.3);
+}
+
+.certification-icon {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.certification-info h4 {
+  margin: 0;
+  color: #f4fbff;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+
