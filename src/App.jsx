@@ -56,9 +56,9 @@ function App() {
               assessment, web application security, authentication and authorization, encryption fundamentals, security monitoring, incident
               response concepts, and secure system design. Hands-on experience in vulnerability assessment, penetration testing, network traffic
               analysis, attack identification, and security analysis using Wireshark, Nmap, Burp Suite, and Linux. Knowledge of TCP/IP, DNS,
-              HTTP/HTTPS, firewalls, common network threats, OWASP Top 10, security controls, and security best practices. Demonstrated
-              analytical, problem-solving, research, documentation, and communication skills by identifying and addressing vulnerabilities in
-              application, system, and network environments, reflecting a strong commitment to security best practices.
+              HTTP/HTTPS, firewalls, common network threats, OWASP Top 10, security controls, and security best practices. Strong
+              analytical, problem-solving, research, documentation, and communication skills with a strong interest in application, system, and
+              network security.
             </p>
           </div>
 
@@ -120,7 +120,7 @@ function App() {
                 <li>Conducted vulnerability assessments and penetration testing in simulated and authorized environments to identify security weaknesses.</li>
                 <li>Applied ethical hacking methodologies to analyze vulnerabilities and evaluate application and system security.</li>
                 <li>Identified security weaknesses and proposed mitigation and remediation strategies following security best practices.</li>
-                <li>Applied ethical hacking methodologies, including penetration testing and code analysis, to identify vulnerabilities and strengthen application and system security, resulting in enhanced overall protection.</li>
+                <li>Applied security concepts including authentication, authorization, input validation, secure coding, and web application security during security testing and analysis.</li>
               </ul>
             </article>
 
@@ -181,7 +181,7 @@ function App() {
               <h3>IN-SPACe Rocketry Student Competition</h3>
               <p className="timeline-role" style={{ color: '#62e8f7', marginBottom: '8px', fontWeight: 600 }}>Critical Design Review (CDR) Qualifier</p>
               <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
-                <li>Successfully advanced to the <strong>Critical Design Review (CDR)</strong> by passing the <strong>Preliminary Design Review (PDR)</strong> in the national-level IN-SPACe Rocketry Student Competition.</li>
+                <li>Qualified for the Critical Design Review (CDR) after clearing the Preliminary Design Review (PDR) in the national-level IN-SPACe Rocketry Student Competition.</li>
                 <li>Collaborated with a multidisciplinary engineering team on the design and development of a student-built sounding rocket.</li>
                 <li>Contributed to subsystem design, system integration, engineering calculations, and technical documentation.</li>
                 <li>Participated in design validation, risk assessment, trade-off analysis, and preparation of technical reports and presentations.</li>
@@ -275,12 +275,14 @@ function App() {
               <div className="skills-tags">
                 <span>Analytical Thinking</span>
                 <span>Problem Solving</span>
+                <span>Attention to Detail</span>
+                <span>Security Research</span>
                 <span>Technical Documentation</span>
+                <span>Team Collaboration</span>
                 <span>Communication</span>
                 <span>Continuous Learning</span>
                 <span>Critical Thinking</span>
                 <span>Time Management</span>
-                <span>Curiosity</span>
               </div>
             </div>
           </div>
@@ -292,35 +294,41 @@ function App() {
             <h2>Security-focused studies and academic background.</h2>
           </div>
 
-          <div className="education-card">
-            <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
-              <h3 style={{ margin: 0 }}>SRM Institute of Science and Technology</h3>
-              <span style={{ color: '#62e8f7', fontWeight: 600 }}>2024 -- Present</span>
+          <div style={{ display: 'grid', gap: '16px' }}>
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
+                <h3 style={{ margin: 0 }}>SRM Institute of Science and Technology</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>2024 -- Present</span>
+              </div>
+              <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>B.Tech -- Computer Science and Engineering (Cyber Security)</p>
+              <p style={{ color: '#bdc9d9' }}>CGPA: <strong style={{ color: '#62e8f7' }}>9.33</strong></p>
             </div>
-            <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>B.Tech -- Computer Science and Engineering (Cyber Security)</p>
-            <p style={{ color: '#bdc9d9' }}>CGPA: <strong style={{ color: '#62e8f7' }}>9.33</strong></p>
+
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
+                <h3 style={{ margin: 0 }}>Intermediate (Class XII)</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>83%</span>
+              </div>
+              <p style={{ color: '#bdc9d9', margin: 0 }}>Senior Secondary Education</p>
+            </div>
+
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
+                <h3 style={{ margin: 0 }}>Secondary School (Class X)</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>93.1%</span>
+              </div>
+              <p style={{ color: '#bdc9d9', margin: 0 }}>Secondary Education</p>
+            </div>
           </div>
         </section>
 
         <section className="resume-section" id="certifications">
           <div className="section-heading">
-            <span>Certifications & Training</span>
+            <span>Certifications</span>
             <h2>Professional credentials and training from resume.</h2>
           </div>
 
           <div className="certifications-grid">
-            <div className="certification-card">
-              <div className="certification-icon">🎓</div>
-              <div className="certification-info">
-                <h4>Cybersecurity Professional</h4>
-              </div>
-            </div>
-            <div className="certification-card">
-              <div className="certification-icon">🛡️</div>
-              <div className="certification-info">
-                <h4>Cybersecurity Associate - SOC Analyst (Ongoing)</h4>
-              </div>
-            </div>
             <div className="certification-card">
               <div className="certification-icon">🔒</div>
               <div className="certification-info">
