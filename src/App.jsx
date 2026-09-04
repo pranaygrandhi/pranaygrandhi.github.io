@@ -20,11 +20,11 @@ function App() {
           </a>
           <a
             className="btn btn-primary btn-download"
-            href="/Pranay_Grandhi_Resume.pdf"
+            href="/Pranay_Grandhi_Resume.pdf?v=latest"
             onClick={async (e) => {
               e.preventDefault();
               try {
-                const res = await fetch('/Pranay_Grandhi_Resume.pdf');
+                const res = await fetch('/Pranay_Grandhi_Resume.pdf?t=' + Date.now(), { cache: 'no-store' });
                 if (!res.ok) throw new Error('Network response not ok');
                 const blob = await res.blob();
                 const url = window.URL.createObjectURL(blob);
@@ -38,7 +38,7 @@ function App() {
                 window.URL.revokeObjectURL(url);
               } catch (err) {
                 console.error('Download failed, falling back to direct link', err);
-                window.location.href = '/Pranay_Grandhi_Resume.pdf';
+                window.location.href = '/Pranay_Grandhi_Resume.pdf?t=' + Date.now();
               }
             }}
           >
