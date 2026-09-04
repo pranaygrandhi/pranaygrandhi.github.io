@@ -5,12 +5,12 @@ function App() {
     <div className="portfolio-app">
       <header className="resume-header">
         <div>
-          <p className="eyebrow">Cybersecurity & Aerospace Systems Engineer</p>
+          <p className="eyebrow">Cybersecurity & Systems Engineering</p>
           <h1>Pranay Grandhi</h1>
           <p className="headline">
-            Computer Science (Cyber Security) undergraduate specializing in network security,
-            vulnerability assessment, web application security, authentication & authorization,
-            encryption fundamentals, security monitoring, and secure system design.
+            Computer Science and Cyber Security undergraduate specializing in vulnerability assessment,
+            penetration testing, network security, web application security, authentication & authorization,
+            encryption fundamentals, security monitoring, incident response concepts, and secure system design.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ function App() {
               analysis, attack identification, and security analysis using Wireshark, Nmap, Burp Suite, and Linux. Knowledge of TCP/IP, DNS,
               HTTP/HTTPS, firewalls, common network threats, OWASP Top 10, security controls, and security best practices. Demonstrated
               analytical, problem-solving, research, documentation, and communication skills by identifying and addressing vulnerabilities in
-              application, system, and network environments.
+              application, system, and network environments, reflecting a strong commitment to security best practices.
             </p>
           </div>
 
@@ -96,9 +96,9 @@ function App() {
             </div>
             <div>
               <ul>
-                <li>Vulnerability Assessment & Penetration Testing (Wireshark, Nmap, Burp Suite)</li>
-                <li>Web Application & Network Security (OWASP Top 10, TCP/IP, DNS, Firewalls)</li>
-                <li>Security Monitoring, Incident Response & Threat Analysis</li>
+                <li>Vulnerability Assessment & Penetration Testing (Wireshark, Nmap, Burp Suite, Linux)</li>
+                <li>Web Application & Network Security (OWASP Top 10, TCP/IP, DNS, Firewalls, IDS)</li>
+                <li>Security Monitoring, Incident Response Concepts & Threat Analysis</li>
                 <li>Embedded & Aerospace Systems Security (IN-SPACe CDR Qualifier)</li>
               </ul>
             </div>
@@ -145,19 +145,7 @@ function App() {
 
           <div className="timeline">
             <article className="timeline-item">
-              <p className="timeline-date">Aerospace & Systems Engineering</p>
-              <h3>IN-SPACe Rocketry Student Competition</h3>
-              <p className="timeline-role" style={{ color: '#62e8f7', marginBottom: '8px', fontWeight: 600 }}>Critical Design Review (CDR) Qualifier</p>
-              <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
-                <li>Successfully advanced to the <strong>Critical Design Review (CDR)</strong> by passing the <strong>Preliminary Design Review (PDR)</strong> in the national-level IN-SPACe Rocketry Student Competition.</li>
-                <li>Collaborated with a multidisciplinary engineering team on the design and development of a student-built sounding rocket.</li>
-                <li>Contributed to subsystem design, system integration, engineering calculations, and technical documentation.</li>
-                <li>Participated in design validation, risk assessment, trade-off analysis, and preparation of technical reports and presentations.</li>
-              </ul>
-            </article>
-
-            <article className="timeline-item">
-              <p className="timeline-date">Network & Application Security</p>
+              <p className="timeline-date">Cybersecurity Project</p>
               <h3>Security Analysis of Internet-Based Voice and Video Communication Infrastructure</h3>
               <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
                 <li>Analyzed SIP and RTP VoIP protocols across 100+ packets using Wireshark for network and security analysis.</li>
@@ -169,7 +157,7 @@ function App() {
             </article>
 
             <article className="timeline-item">
-              <p className="timeline-date">Cryptography Project</p>
+              <p className="timeline-date">Cybersecurity Project</p>
               <h3>Practical Attacks and Countermeasures for Cryptosystems</h3>
               <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
                 <li>Simulated brute-force, timing, and cryptographic attacks to analyze vulnerabilities in cryptographic systems.</li>
@@ -179,12 +167,24 @@ function App() {
             </article>
 
             <article className="timeline-item">
-              <p className="timeline-date">Computer Architecture Security</p>
-              <h3>Security Analysis of CPU-GPU Coupled Architectures</h3>
+              <p className="timeline-date">Cybersecurity Project</p>
+              <h3>Security Analysis of CPU--GPU Coupled Architectures</h3>
               <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
-                <li>Investigated security vulnerabilities in heterogeneous CPU-GPU architectures.</li>
+                <li>Investigated security vulnerabilities in heterogeneous CPU--GPU architectures.</li>
                 <li>Identified memory leakage and side-channel attack risks affecting system security.</li>
                 <li>Proposed secure memory isolation techniques to improve system resilience and reduce security exposure.</li>
+              </ul>
+            </article>
+
+            <article className="timeline-item">
+              <p className="timeline-date">Additional Project Experience</p>
+              <h3>IN-SPACe Rocketry Student Competition</h3>
+              <p className="timeline-role" style={{ color: '#62e8f7', marginBottom: '8px', fontWeight: 600 }}>Critical Design Review (CDR) Qualifier</p>
+              <ul style={{ paddingLeft: '20px', margin: 0, color: '#bdc9d9', lineHeight: 1.8 }}>
+                <li>Successfully advanced to the <strong>Critical Design Review (CDR)</strong> by passing the <strong>Preliminary Design Review (PDR)</strong> in the national-level IN-SPACe Rocketry Student Competition.</li>
+                <li>Collaborated with a multidisciplinary engineering team on the design and development of a student-built sounding rocket.</li>
+                <li>Contributed to subsystem design, system integration, engineering calculations, and technical documentation.</li>
+                <li>Participated in design validation, risk assessment, trade-off analysis, and preparation of technical reports and presentations.</li>
               </ul>
             </article>
           </div>
@@ -192,22 +192,25 @@ function App() {
 
         <section className="resume-section" id="skills">
           <div className="section-heading">
-            <span>Skills</span>
-            <h2>Technical capabilities and security tools.</h2>
+            <span>Technical & Soft Skills</span>
+            <h2>All technical capabilities, security concepts, and soft skills from resume.</h2>
           </div>
 
           <div className="skills-categories-grid">
             <div className="skills-category-card">
-              <h3>Cybersecurity & AppSec</h3>
+              <h3>Cybersecurity</h3>
               <div className="skills-tags">
                 <span>Vulnerability Assessment</span>
                 <span>Penetration Testing</span>
                 <span>Ethical Hacking</span>
-                <span>Web App Security</span>
-                <span>OWASP Top 10</span>
+                <span>Web Application Security</span>
+                <span>Network Security</span>
+                <span>System Security</span>
                 <span>Threat Analysis</span>
+                <span>Security Controls</span>
                 <span>Security Monitoring</span>
-                <span>Incident Response</span>
+                <span>Incident Response Concepts</span>
+                <span>Information Security</span>
               </div>
             </div>
             <div className="skills-category-card">
@@ -218,42 +221,66 @@ function App() {
                 <span>HTTP/HTTPS</span>
                 <span>Firewalls</span>
                 <span>IDS</span>
-                <span>Traffic Analysis</span>
-                <span>Secure Comm.</span>
+                <span>Network Traffic Analysis</span>
+                <span>Common Network Threats</span>
+                <span>Attack Patterns</span>
+                <span>Secure Communication</span>
               </div>
             </div>
             <div className="skills-category-card">
-              <h3>Tools & Platforms</h3>
+              <h3>Application Security</h3>
+              <div className="skills-tags">
+                <span>Authentication</span>
+                <span>Authorization</span>
+                <span>Input Validation</span>
+                <span>Secure Coding Fundamentals</span>
+                <span>OWASP Top 10</span>
+                <span>Web Application Security</span>
+              </div>
+            </div>
+            <div className="skills-category-card">
+              <h3>Security Tools & Platforms</h3>
               <div className="skills-tags">
                 <span>Linux</span>
                 <span>Wireshark</span>
                 <span>Nmap</span>
                 <span>Burp Suite</span>
-                <span>Git & GitHub</span>
-                <span>VS Code</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Visual Studio Code</span>
               </div>
             </div>
             <div className="skills-category-card">
-              <h3>Languages & Concepts</h3>
+              <h3>Security Concepts</h3>
+              <div className="skills-tags">
+                <span>Encryption Fundamentals</span>
+                <span>Cryptography</span>
+                <span>Vulnerability Management</span>
+                <span>Security Best Practices</span>
+                <span>Risk Assessment</span>
+                <span>Security Analysis</span>
+              </div>
+            </div>
+            <div className="skills-category-card">
+              <h3>Programming Languages</h3>
               <div className="skills-tags">
                 <span>Python</span>
                 <span>C</span>
                 <span>C++</span>
                 <span>Java</span>
-                <span>Cryptography</span>
-                <span>Encryption Fundamentals</span>
-                <span>Risk Assessment</span>
               </div>
             </div>
-            <div className="skills-category-card">
+            <div className="skills-category-card" style={{ gridColumn: '1 / -1' }}>
               <h3>Soft Skills</h3>
               <div className="skills-tags">
                 <span>Analytical Thinking</span>
                 <span>Problem Solving</span>
                 <span>Technical Documentation</span>
                 <span>Communication</span>
+                <span>Continuous Learning</span>
                 <span>Critical Thinking</span>
                 <span>Time Management</span>
+                <span>Curiosity</span>
               </div>
             </div>
           </div>
@@ -267,18 +294,18 @@ function App() {
 
           <div className="education-card">
             <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
-              <h3 style={{ margin: 0 }}>B.Tech in Computer Science and Engineering (Cyber Security)</h3>
+              <h3 style={{ margin: 0 }}>SRM Institute of Science and Technology</h3>
               <span style={{ color: '#62e8f7', fontWeight: 600 }}>2024 -- Present</span>
             </div>
-            <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>SRM Institute of Science and Technology</p>
+            <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>B.Tech -- Computer Science and Engineering (Cyber Security)</p>
             <p style={{ color: '#bdc9d9' }}>CGPA: <strong style={{ color: '#62e8f7' }}>9.33</strong></p>
           </div>
         </section>
 
         <section className="resume-section" id="certifications">
           <div className="section-heading">
-            <span>Certifications</span>
-            <h2>Professional credentials and training.</h2>
+            <span>Certifications & Training</span>
+            <h2>Professional credentials and training from resume.</h2>
           </div>
 
           <div className="certifications-grid">
