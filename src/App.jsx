@@ -292,13 +292,31 @@ function App() {
             <h2>Security-focused studies and academic background.</h2>
           </div>
 
-          <div className="education-card">
-            <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
-              <h3 style={{ margin: 0 }}>SRM Institute of Science and Technology</h3>
-              <span style={{ color: '#62e8f7', fontWeight: 600 }}>2024 -- Present</span>
+          <div style={{ display: 'grid', gap: '16px' }}>
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
+                <h3 style={{ margin: 0 }}>SRM Institute of Science and Technology</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>2024 -- Present</span>
+              </div>
+              <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>B.Tech -- Computer Science and Engineering (Cyber Security)</p>
+              <p style={{ color: '#bdc9d9' }}>CGPA: <strong style={{ color: '#62e8f7' }}>9.33</strong></p>
             </div>
-            <p style={{ color: '#f4fbff', marginBottom: '8px', fontWeight: 600 }}>B.Tech -- Computer Science and Engineering (Cyber Security)</p>
-            <p style={{ color: '#bdc9d9' }}>CGPA: <strong style={{ color: '#62e8f7' }}>9.33</strong></p>
+
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
+                <h3 style={{ margin: 0 }}>Intermediate (Class XII)</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>83%</span>
+              </div>
+              <p style={{ color: '#bdc9d9', margin: 0 }}>Senior Secondary Education</p>
+            </div>
+
+            <div className="education-card">
+              <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
+                <h3 style={{ margin: 0 }}>Secondary School (Class X)</h3>
+                <span style={{ color: '#62e8f7', fontWeight: 600 }}>93.1%</span>
+              </div>
+              <p style={{ color: '#bdc9d9', margin: 0 }}>Secondary Education</p>
+            </div>
           </div>
         </section>
 
